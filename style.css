@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  margin: none;
+  padding: none;
+}
+
+.back {
+  background: linear-gradient(90deg, #ff8a65 50%, #abebc6 50%);
+}
+
+.bg-two {
+  background-color: #abebc6;
+}
+
+.text-one {
+  color: #fec7c4;
+}
+
+.backimg {
+  background-image: url("./assets/music.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.mybtn {
+  border: none;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  color: #ff8a65;
+}
+
+.grow {
+  transition: all 0.5s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  letter-spacing: 5px;
+}
+
+.card-text {
+  letter-spacing: 2px;
+}
