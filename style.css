@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: none;
   padding: none;
@@ -9,12 +13,24 @@ body {
   background: linear-gradient(90deg, #ff8a65 50%, #abebc6 50%);
 }
 
+.bg-one {
+  background-color: #ff8a65;
+}
+
 .bg-two {
   background-color: #abebc6;
 }
 
 .text-one {
   color: #fec7c4;
+}
+
+.text-two {
+  color: #abebc6;
+}
+
+.text-strike {
+  text-decoration: line-through;
 }
 
 .backimg {
@@ -46,4 +62,18 @@ body {
 
 .card-text {
   letter-spacing: 2px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cus-height {
+  height: 40vh;
+  width: 100%;
 }
